@@ -32,9 +32,9 @@ const Contact = () => {
   return (
 
     
-
+    
     <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-
+        
         <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl fond-bold inline border-b-4 border-[#5ce1e6] text-gray-300'>Contact</p>
@@ -46,7 +46,7 @@ const Contact = () => {
             <textarea className='bg-[#ccd6f6] p-2' name='message' rows="10" placeholder="Message"></textarea>
 
             <div class="g-recaptcha" data-sitekey="6LedfRMhAAAAAIGte-Z6gA3gf-1JYZApT2X-n5lK"></div>
-            <br></br><ReCAPTCHA className='flex flex-col max-w-[600px] items-center p-8'
+            <ReCAPTCHA className='flex flex-col max-w-[600px] items-center p-8'
                 sitekey="6LedfRMhAAAAAIGte-Z6gA3gf-1JYZApT2X-n5lK"
                 onChange={onChange}
                 />
