@@ -49,7 +49,7 @@ const Contact = () => {
             <br></br><ReCAPTCHA className='flex flex-col max-w-[600px] items-center p-8'
                 sitekey="6LedfRMhAAAAAIGte-Z6gA3gf-1JYZApT2X-n5lK"
                 onChange={onChange}
-                />,
+                />
             <button className='text-white border-2 hover:bg-[#5ce1e6] hover:border-text-[#5ce1e6] px-4 py-3 mx-auto flex items-center'>
                 Let's Collaborate</button>
         </form>
