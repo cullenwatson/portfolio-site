@@ -10,4 +10,4 @@ Email: cgwatson@smu.edu
 
 * Created with React and Tailwind CSS
 
-View the site [here](cullenwatson.com)
+View the site [here](https://cullenwatson.com)
