@@ -17,9 +17,8 @@ const About = () => {
                         <div>
                             <p>
                                 I am passionate abould building excellent software that
-                                solves people's problems. I want to improve the lives of people around me by saving time through automation, simplicity, and enjoyment of the 
-                                software I create. I am familiar with many programming languages, such as Java, Python, and C++. In my free time, I'm currently
-                                learning React to design beautiful websites.
+                                solves people's problems. I want to improve the lives of people around me by saving time through automation and innovation. I am familiar with many programming languages, such as Java, Python, and C++. In my free time, I'm currently
+                                learning React to design websites.
                             </p>
                         </div>
                     </div>
