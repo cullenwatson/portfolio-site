@@ -38,7 +38,7 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl fond-bold inline border-b-4 border-[#5ce1e6] text-gray-300'>Contact</p>
-                <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - cgwatson@smu.edu</p>
+                <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - cullen@cullenwatson.com</p>
             </div>
             {/* Text boxes */}
             <input className='p-2 bg-[#ccd6f6]' type="text" placeholder='Name' name='user_name' />
